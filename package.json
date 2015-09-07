@@ -1,0 +1,32 @@
+{
+  "name": "@superkhau/bmi-category",
+  "version": "1.0.0",
+  "description": "A BMI (body mass index) category calculator.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "tape 'test/*.js'|faucet && tape 'test/functional/*.js'|faucet",
+    "ftest": "tape 'test/functional/*.js'|faucet",
+    "utest": "tape 'test/*.js'|faucet",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superkhau/bmi-category.git"
+  },
+  "keywords": [
+    "bmi",
+    "calculator"
+  ],
+  "author": "Simon Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superkhau/bmi-category/issues"
+  },
+  "homepage": "https://github.com/superkhau/bmi-category"
+}
