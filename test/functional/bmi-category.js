@@ -1,7 +1,7 @@
 var test = require('tape');
 var bmiCategory = require('../..');
 
-test('FT returns the correct category for the given bmi', function(t) {
+test('the correct category is returned for the given bmi', function(t) {
   t.plan(4);
 
   t.equal('underweight', bmiCategory.get(18.4));
