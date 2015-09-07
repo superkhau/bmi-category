@@ -12,8 +12,7 @@
   "scripts": {
     "test": "tape 'test/*.js'|faucet && tape 'test/functional/*.js'|faucet",
     "ftest": "tape 'test/functional/*.js'|faucet",
-    "utest": "tape 'test/*.js'|faucet",
-    "publish": "npm publish --access=public"
+    "utest": "tape 'test/*.js'|faucet"
   },
   "repository": {
     "type": "git",
