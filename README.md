@@ -10,7 +10,7 @@ npm install --save @superkhau/bmi-category
 
 ## API
 
-### `get`
+### get
 
 `bmiCategory.get(Number)`
 
