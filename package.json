@@ -1,6 +1,6 @@
 {
   "name": "@superkhau/bmi-category",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A BMI (body mass index) category calculator.",
   "main": "index.js",
   "directories": {
