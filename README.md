@@ -10,9 +10,11 @@ npm install --save @superkhau/bmi-category
 
 ## API
 
-- *bmiCagetory.get(bmi)* // bmi is a number (ie. 24.9)
+### `get`
 
-## Usage
+`bmiCategory.get(Number)`
+
+#### Usage
 
 ```
 var bmiCategory = require('@superkhau/bmi-category');
